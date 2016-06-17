@@ -1,0 +1,20 @@
+{
+  "name": "read-it",
+  "homepage": "https://github.com/NStephenson/read-it-final-assessment",
+  "authors": [
+    "NStephenson <nickstephenson90@gmail.com>"
+  ],
+  "description": "A totally original webapp",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}
