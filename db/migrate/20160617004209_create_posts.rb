@@ -4,6 +4,7 @@ class CreatePosts < ActiveRecord::Migration
       t.string :link
       t.string :title
       t.integer :rating
+      t.integer :user_id
       t.integer :community_id
 
       t.timestamps null: false
