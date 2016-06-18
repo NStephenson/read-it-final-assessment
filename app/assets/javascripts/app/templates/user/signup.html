@@ -1,0 +1,18 @@
+<h1>Create your account:</h1>
+
+<form ng-submit="signUp()">
+  <label>Username:</label>
+  <input type="text" ng-model="username" name="username"><br>
+  <label>Email:</label>
+  <input type="email" ng-model="email" name="email"><br>
+  <label>Password:</label>
+  <input type="password" ng-model="password" name="password"><br>
+  <label>Confirm Password:</label>
+  <input type="password" ng-model="passwordConfirm" name="password-confimation"><br>
+  <input type="submit" name="submit">
+</form>
+
+{{username}}
+{{email}}
+{{password}}
+{{passwordConfirm}}
